@@ -1,0 +1,90 @@
+body {
+  
+        
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+  background: #998235
+}
+
+#piano {
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  height: 290px;
+  padding: 90px 30px 0 30px;
+  background-color: #191919;
+  border-radius: 10px;
+}
+
+.keys {
+  position: relative;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.black-keys {
+  position: relative;
+  display: flex;
+}
+
+.white-key {
+  width: 60px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  border: solid black 2px;
+  box-sizing: border-box;
+}
+
+.black-key {
+  width: 38px;
+  height: 160px;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: black;
+}
+
+.black-key:nth-child(1) {
+  left: 40px;
+}
+
+.black-key:nth-child(2) {
+  left: 102px;
+}
+
+.black-key:nth-child(3) {
+  left: 224px;
+}
+
+.black-key:nth-child(4) {
+  left: 284px;
+}
+
+.black-key:nth-child(5) {
+  left: 344px;
+}
+
+.black-key:nth-child(6) {
+  left: 464px;
+}
+
+.black-key:nth-child(7) {
+  left: 524px;
+}
+
+.black-key:nth-child(8) {
+  left: 644px;
+}
+
+.black-key:nth-child(9) {
+  left: 704px;
+}
+
+.black-key:nth-child(10) {
+  left: 764px;
+}
