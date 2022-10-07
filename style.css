@@ -1,11 +1,10 @@
 body {
-  
-        
+  margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  align-content: center;
-  background: #998235
+  background: linear-gradient(360deg, #50c9c3 10%, #96deda 360%);
 }
 
 #piano {
@@ -27,7 +26,6 @@ body {
 }
 
 .black-keys {
-  position: relative;
   display: flex;
 }
 
@@ -46,6 +44,7 @@ body {
   border-radius: 0 0 5px 5px;
   box-sizing: border-box;
   position: absolute;
+  inset: 0;
   background-color: black;
 }
 
